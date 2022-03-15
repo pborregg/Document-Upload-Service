@@ -1,17 +1,16 @@
 <div class="control-section">
-	<div class="col-lg-9">
-		<div class="control_wrapper">
-			<ejs-uploader #defaultupload id='defaultfileupload' [autoUpload]="false" (created)='onCreate($event)'
-				(progress)='onUploadInProgress($event)' [asyncSettings]='path' [dropArea]='dropElement'>
-			</ejs-uploader>
-		</div>
-	</div>
+    <div class="col-lg-9">
+        <div class="control_wrapper">
+            <ejs-uploader #defaultupload id="defaultfileupload" [autoUpload]="false" (created)="onCreate($event)" (progress)="onUploadInProgress($event)" [asyncSettings]="path" [dropArea]="dropElement">
+            </ejs-uploader>
+        </div>
+    </div>
 </div>
 
 <div class="row">
-	<div class="my-container">
-		<span style=' padding-left: 40px; margin-top: 30px'>
-        <button id='full' class='e-btn e-control'>Custom Uplaod Button</button>
+    <div class="my-container">
+        <span style=" padding-left: 40px; margin-top: 30px">
+        <button id="full" class="e-btn e-control">Custom Uplaod Button</button>
     </span>
-	</div>
+    </div>
 </div>

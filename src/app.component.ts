@@ -40,7 +40,7 @@ export class AppComponent {
   public onUploadInProgress(args) {
     // const li: HTMLElement = this.getLiElement(args.file);
   }
-  public onCreate() {
+  public onCreate(event) {
     var spanElement = document.createElement("span");
     var icon = document.createElement("i");
     icon.className = "fa fa-upload";
